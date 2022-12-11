@@ -10,8 +10,11 @@
 </head>
 <body>
     <!-- navbar section -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark shadow fixed-top">
         <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Disclaimer</a></li>
@@ -63,24 +66,26 @@
           <div class="row text-center">
             <h1 class="text-uppercase boder-bottom">about me</h1>
             <p>My passion is coding</p>
-            <img src="images/mypic.JPG" alt="MY picture" class="img text-center">
+            <div class="col-3"></div>
+            <img src="images/mypic.jpg" alt="MY picture" class="img col-6">
+            <div class="col-3"></div>
             <h3 class="text-uppercase">Edmond Yi Kiu Tsang
                 <p>Software Enginneer @ Software Company Limited</p>
             </h3>
             
-            <div class="col-md-3"></div>
-            <a href="CV.pdf" download class="rounded-pill btn-rounded col-md-3">
+            <div class="col-lg-3"></div>
+            <a href="CV.pdf" download class="rounded-pill btn-rounded col-lg-3">
               <div>Resume</div>
               <span>
                 <i class="fa-solid fa-cloud-arrow-down"></i>
               </span>
             </a>
-              <button type="button" class="rounded-pill btn-rounded col-md-3" onclick="toContact()">Contact Me
+              <button type="button" class="rounded-pill btn-rounded col-lg-3" onclick="toContact()">Contact Me
                 <span>
                   <i class="fas fa-phone"></i>
                 </span>
               </button>
-            <div class="col-md-3">
+            <div class="col-md-lg">
             </div>
           </div>
         </section>
